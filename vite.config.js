@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: "/Spender-Dashboard/",
+  base: process.env.VERCEL ? '/' : "/Spender-Dashboard/",
   plugins: [react()],
 })
