@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://pen0808.github.io/Spender-Dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,7 +14,6 @@
     "vite": "^8.0.12"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "recharts": "^2.15.3"
